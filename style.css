@@ -1,0 +1,44 @@
+*{
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+}
+h1{
+    margin-top: 1vh;
+    text-align: center;
+}
+#choose{
+    margin-left:  4vw;
+    font-size: 4vh;
+    font-weight: 600;
+}
+table{
+    margin: 2vh 2vw;
+    padding: 0vw;
+}
+input,option,select{
+    border: 1px solid black;
+}
+table,thead,tr,td{
+    border: none;
+}
+#drop{
+    padding: 0;
+    margin: 0;
+}
+tr:hover,td:hover{
+    opacity: .7;
+    background-color: gray;
+}
+tr button:hover{
+    background-color: rgb(216, 137, 137);
+}
+#submit:hover{
+    background-color: green;
+}
+select:focus{
+    background-color: aquamarine;
+
+}
+input:focus{
+    background-color: aquamarine;
+}
